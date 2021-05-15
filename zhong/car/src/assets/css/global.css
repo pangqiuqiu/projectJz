@@ -1,0 +1,56 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+dl, dd {
+  margin: 0;
+  padding: 0;
+}
+.el-divider {
+  margin: 0!important;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: "Microsoft YaHei"
+}
+div, span, label, li {
+  font-family: "Microsoft YaHei"
+}
+.el-textarea { 
+  resize: none!important;
+  height: 100px;
+  width: 400px;
+  font-family: "Microsoft YaHei"
+}
+.el-textarea__inner {
+  resize: none!important;
+  height: 100px;
+  width: 400px;
+}
+.el-input__inner {
+  border-radius: 0!important;
+  font-family: "Microsoft YaHei"
+}
+.el-button {
+  border-radius: 0!important;
+}
+
+.el-dialog__body {
+  padding: 0!important;
+}
+
+img {
+  max-width: 100%;
+}
