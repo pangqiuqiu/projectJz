@@ -1,0 +1,7 @@
+/* 参数配置 */
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: 1px solid #ccc;
+}

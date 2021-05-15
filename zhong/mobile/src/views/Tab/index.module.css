@@ -1,0 +1,13 @@
+.tab .iconfont {
+  font-size: 22px;
+  height: 100%;
+}
+
+:global(.am-tab-bar-bar) {
+  position: fixed;
+  bottom: 0;
+}
+
+.tab {
+  padding-bottom: 50px;
+}

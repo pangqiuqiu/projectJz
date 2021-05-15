@@ -1,0 +1,48 @@
+.inforList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px 15px 0 15px;
+  overflow-x: hidden;
+}
+
+.inforList_item {
+  /* position: absolute; */
+  margin-bottom: 10px;
+  width: 48%;
+  /* height: 200px; */
+}
+
+.inforList_item img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.title {
+  font-size: 13px;
+  /* margin: 10px 0; */
+  padding: 10px 5px;
+  word-wrap: break-word;
+  overflow: hidden;
+  /* text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; */
+  background-color: #fff;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  /* background-color: red; */
+}

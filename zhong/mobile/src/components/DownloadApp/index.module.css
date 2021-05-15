@@ -1,0 +1,21 @@
+.extension {
+  position: fixed;
+  margin-top: -70px;
+  width: 100%;
+  background-color: #4D8FFF;
+  height: 70px;
+  padding: 10px 20px;
+  z-index: 50;
+}
+
+.extension_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  color: #fff;
+}
+
+.extension_image {
+  display: flex;
+}

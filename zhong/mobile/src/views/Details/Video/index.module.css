@@ -1,0 +1,53 @@
+.contain {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.main {
+  border-top: 1px solid #ccc;
+}
+
+video {
+  width: 100%
+}
+
+.recommend {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.recommend li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recommend li h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 10px;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 15px;
+}
+.comment li {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.userTitle {
+  border-bottom: 1px solid #eee;
+}

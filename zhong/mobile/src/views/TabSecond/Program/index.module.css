@@ -1,0 +1,51 @@
+.contain {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.aside {
+  border: 1px solid #eee;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 25%;
+}
+
+.tabItem {
+  
+}
+
+.main {
+  margin-left: 25%;
+  padding-left: 10px;
+  background-color: #fff;
+  width: 75%;
+  padding-top: 5px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.main li {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.main .title {
+  border-bottom: 1px solid #eee;
+  padding-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.two {
+  font-size: 12px;
+  color: #999;
+  margin-top: 15px;
+}

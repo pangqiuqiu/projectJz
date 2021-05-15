@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 20px;
+}
+
+.item {
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+.item h2 {
+  padding: 10px 20px;
+}
+
+.item .address {
+  color: #9E9E9E;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(43, 121, 255);
+}
+
+.btn span {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-top: 1px solid #eee;
+  height: 40px;
+  line-height: 40px;
+}
+
+.phone {
+  border-right: 1px solid #eee;
+}

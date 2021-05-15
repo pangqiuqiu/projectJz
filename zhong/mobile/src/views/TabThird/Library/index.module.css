@@ -1,0 +1,59 @@
+.all {
+  position: relative;
+}
+
+.hobbyList {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.hobbyList::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.hobbyList {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.hobbyList li {
+  text-align: center;
+  margin-right: 15px;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  height: 60px; 
+  line-height: 60px;
+}
+
+.items img {
+  height: 100%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.items div {
+  margin-right: 15px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 索引列表 */
+.indexlist {
+  position: fixed;
+  right: 15px;
+  top: 110px;
+  font-size: 12px;
+}
+
+.indexItem {
+  font-size: 10px;
+  padding: 2px;
+  margin-bottom: 3px;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}

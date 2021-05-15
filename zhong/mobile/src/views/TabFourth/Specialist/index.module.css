@@ -1,0 +1,45 @@
+.hobbyList {
+  display: -webkit-box;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.hobbyList::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.hobbyList {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.hobbyList li {
+  margin-right: 10px;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.item img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.item span {
+  display: inline-block;
+  padding: 5px 7px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  float: right;
+  margin-top: 10px;
+}

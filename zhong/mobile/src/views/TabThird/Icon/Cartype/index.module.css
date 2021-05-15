@@ -1,0 +1,31 @@
+/* 全部在售 */
+.year {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.year li {
+  text-align: center;
+  margin-right: 15px;
+  height: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #757575;
+}
+
+/* 车型列表 */
+.type li {
+  margin-top: 20px;
+  padding: 10px 15px 0 15px;
+  background-color: #fff;
+}
+
+.btn {
+  border-top: 1px solid #eee;
+}
