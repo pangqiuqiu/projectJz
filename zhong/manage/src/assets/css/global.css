@@ -1,0 +1,30 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* 面包屑 */
+.el-breadcrumb {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* h标题 */
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+/* 富文本框 */
+.el-textarea .el-textarea__inner { 
+  /* 然后找到对应的类名，在这里将拉伸去掉即可 */
+  resize: none!important;
+  height: 100px;
+  width: 400px;
+}

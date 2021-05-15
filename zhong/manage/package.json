@@ -1,0 +1,50 @@
+{
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "awe-dnd": "^0.3.4",
+    "axios": "^0.19.2",
+    "core-js": "^3.9.0",
+    "element-ui": "^2.15.1",
+    "es6-promise": "^4.2.8",
+    "file-saver": "^2.0.5",
+    "pubsub-js": "^1.9.3",
+    "qrcodejs2": "0.0.2",
+    "sass-loader": "^10.1.1",
+    "save": "^2.4.0",
+    "vue": "^2.6.12",
+    "vue-baidu-map": "^0.21.22",
+    "vue-json-excel": "^0.3.0",
+    "vue-pdf": "^4.2.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "wangeditor": "^3.1.1",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "less": "^3.13.1",
+    "less-loader": "^7.3.0",
+    "node-sass": "^5.0.0",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
